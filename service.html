@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="service.css">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <link rel="stylesheet" href= "https://fonts.googleapis.com/icon?family=Material+Icons" /> 
+    <!-- Font Awesome 5.15.1 CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+</head>
+<body>
+    <header class="head">
+        <h2>My_Portfolio</h2>
+        <nav>
+            <a href="index.html" id="homebtn" onclick="home()">Home</a>
+            <a href="aboutus.html" id="about_btn" onclick="about()">About</a>
+            <a href="service.html">Skills</a>
+            <a href="client.html">Clients</a>
+            
+        </nav>
+    </header>
+    <section class="info2" id="info2">
+        <section class="services" id="services">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service">
+                    <h3>Information Technology and Technical Skills</h3>
+                    <p>My expertise in IT and technical skills covers a broad range of competencies...</p>
+                    <button class="learn-more-btn" id="one" onclick="learnMore('Software Development')">Learn More</button>
+                </div>
+                <div class="service">
+                    <h3>Creative and Design Skills</h3>
+                    <p>I am a creative professional with a strong foundation in...</p>
+                    <button class="learn-more-btn" id="two" onclick="learnMore('Graphic Design')">Learn More</button>
+                </div>
+                <div class="service">
+                    <h3>Marketing and Digital Skills</h3>
+                    <p>My skills help brands grow their online presence by driving traffic, improving visibility, and increasing audience engagement...</p>
+                    <button class="learn-more-btn" id="three" onclick="learnMore('CCTV Installation')">Learn More</button>
+                </div>
+                <div class="service">
+                    <h3>Project and Administrative Skills</h3>
+                    <p>I manage projects efficiently, ensuring deadlines and goals are met.</p>
+                    <button class="learn-more-btn" id="four" onclick="learnMore('Software Training')">Learn More</button>
+                </div>
+                <div class="service">
+                    <h3>Teaching, Training, and Facilitation Skills</h3>
+                    <p>Simplifying complex topics for teaching and training, creating engaging and effective learning environments that foster skill development.</p>
+                    <button class="learn-more-btn" id="five" onclick="learnMore('Software Training')">Learn More</button>
+                </div>
+               
+                
+            
+            </div>
+        </section>
+
+        <!-- <section class="about" id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat asperiores exercitationem dolore illo, illum placeat reiciendis earum expedita, nemo voluptates magnam assumenda ea voluptatibus, sit natus. Alias, in repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat asperiores exercitationem dolore illo, illum placeat reiciendis earum expedita, nemo voluptates magnam assumenda ea voluptatibus, sit natus. Alias, in repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat asperiores exercitationem dolore illo, illum placeat reiciendis earum expedita, nemo voluptates magnam assumenda ea voluptatibus, sit natus. Alias, in repellendus.</p>
+        </section> -->
+
+            <section class="skillss" id="skillss">
+                <div class="details" id="details1">
+
+            
+                    <h2>Information Technology and Technical Skills:</h2>
+                    <ol>
+                        <li><span>Systems Administration:</span> IT infrastructure setup, management, and security for efficient operations.</li>
+                        <li><span>CCTV Installation:</span> Installing and configuring CCTV surveillance systems for homes and businesses.</li>
+                        <li><span>Dish Installation (KU Band & C Band):</span> Installation and setup of satellite dishes for television and internet services.</li>
+                        <li><span>Solar Power Installation:</span> Installation of solar panels and systems for sustainable energy solutions.</li>
+                        <li><span>Computer Repairs and Assemblage:</span> Troubleshooting, repairing, and assembling computer hardware and systems.</li>
+                        <li><span>Networking:</span> Setting up and managing local and wide area networks (LAN/WAN) for secure connectivity.</li>
+                    </ol>
+    
+            </div>
+            <div class="details" id="details2">
+
+            
+                <h2>Creative and Design Skills</h2>
+                <ol>
+                    <li><span>Graphic Design: </span>Creating logos, branding, and multimedia visuals for digital and print media.</li>
+                    <li><span>UI/UX Design: </span>Designing user-friendly interfaces and enhancing user experiences for web and mobile applications.</li>
+                        <li><span>Video Editing: </span>Professional video editing for marketing, social media, and corporate content.</li>
+                        <li><span>Mobile App Design: </span>Custom designs for mobile apps, prioritizing functionality and user engagement.</li>
+                        <li><span>Desktop Publishing: </span>Creating and formatting content for print, including brochures, magazines, and journals.</li>
+                        <li><span>Printing Services: </span>High-quality printing for certificates, journals, and professional documents.
+                        </li>
+                </ol>
+
+        </div>
+        
+        <div class="details" id="details3">
+
+            
+            <h2>Marketing and Digital Skills</h2>
+            <ol>
+                <li><span>Digital Marketing:</span> Planning and managing digital marketing campaigns, including social media and online advertising.</li>
+                <li><span>Search Engine Optimization (SEO): </span>Enhancing website visibility and search engine rankings through targeted optimization.</li>
+             
+    </div>
+
+    <div class="details" id="details4">
+
+            
+        <h2>Project and Administrative Skills</h2>
+        <ol>
+            <span>Project Management: </span>Coordinating digital and technical projects, ensuring timely delivery and alignment with goals.
+        </ol>
+
+</div>
+
+<div class="details" id="details5">
+
+            
+    <h2>Teaching, Training, and Facilitation Skills</h2>
+    <ol>
+        <li><span>Facilitator & Trainer: </span>Conducting hands-on training sessions on IT, software development, and digital solutions.</li>
+        <li><span>Teaching & Lecturing: </span>Leading educational programs and workshops in IT, design, and digital solutions.</li>
+        
+    </ol>
+
+</div>
+    
+    <br><br>
+      
+
+
+
+<script>
+    document.getElementById("one").addEventListener('click', function(){
+        document.getElementById("services").style.transform = "translateY(-10px)"
+        document.getElementById("services").style.display = "none"
+        document.getElementById("details1").style.display = "block"
+    })
+
+    document.getElementById("two").addEventListener('click', function(){
+        document.getElementById("services").style.transform = "translateY(-10px)"
+        document.getElementById("services").style.display = "none"
+        document.getElementById("details2").style.display = "block"
+    })
+
+    document.getElementById("three").addEventListener('click', function(){
+        document.getElementById("services").style.transform = "translateY(-10px)"
+        document.getElementById("services").style.display = "none"
+        document.getElementById("details3").style.display = "block"
+    })
+
+    document.getElementById("four").addEventListener('click', function(){
+        document.getElementById("services").style.transform = "translateY(-10px)"
+        document.getElementById("services").style.display = "none"
+        document.getElementById("details4").style.display = "block"
+    })
+
+    document.getElementById("five").addEventListener('click', function(){
+        document.getElementById("services").style.transform = "translateY(-10px)"
+        document.getElementById("services").style.display = "none"
+        document.getElementById("details5").style.display = "block"
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    const homebtn = document.getElementById('homebtn')
+
+        function home(){
+            aboutUs.style.display = "none"
+            information.style.display = "block"
+            information.style.transition =""
+        }
+
+// .......................About Us.............................................
+
+        const information2 = document.getElementById('info2')
+        const aboutUs = document.getElementById('about')
+
+        function about(){
+            aboutUs.style.display = "block"
+            information2.style.display = "none"
+        }
+
+</script>
+
+
+
+
+
+    <!-- <script>
+        
+        const homebtn = document.getElementById('homebtn')
+
+        function home(){
+            aboutUs.style.display = "none"
+            information.style.display = "block"
+            information.style.transition =""
+        }
+
+// .......................About Us.............................................
+
+        const information = document.getElementById('info')
+        const aboutUs = document.getElementById('about')
+
+        function about(){
+            aboutUs.style.display = "block"
+            information.style.display = "none"
+        }
+
+
+    </script> -->
+</body>
+</html>

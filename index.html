@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <link rel="stylesheet" href= "https://fonts.googleapis.com/icon?family=Material+Icons" /> 
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- Font Awesome 5.15.1 CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- <i class="fas fa-bars" id="menuclick" ></i>
+        <i class="fas fa-times" id="closeclick" ></i> -->
+
+    <header class="head">
+        <h2>My_Portfolio</h2>
+        <nav>
+            <a href="index.html" id="homebtn" onclick="home()">Home</a>
+            <a href="aboutus.html" id="about_btn" onclick="about()">About</a>
+            <a href="service.html">Skills</a>
+            <a href="client.html">Clients</a>
+            <a href="client.html"></a>
+            
+        </nav>
+
+
+        
+        <!-- <a href=""><img src="menu.png" alt="" width="4%" class="menuclick" ></a> -->
+        <!-- <img src="close.png" alt="" width="4%" class="closeclick" > -->
+
+    </header>
+    <section class="info" id="info">
+        <div>
+            <h1><label>I'm</label> <br>Meshach Oriaifo</h1>
+            <h3>Digital Solution Expert</h3>
+            <p>I work on softwares, mobile app, Grphics Designs, and Train Devops</p>
+            <!-- <a href="" class="btn">Hire Me</a> -->
+            <a href="contact.html" class="btn talk">Let's Talk</a>
+            
+            
+        </div>
+        <div>
+            <img src="myPix.png" alt="" width="45%">
+        </div>
+        <div class="icons">
+            <a target="_blank" href="https://www.facebook.com/meshach.oriaifo" class="icon facebook">
+                
+                <span><i class="fab fa-facebook-f"></i></span>
+              </a>
+              <a target="_blank" href="https://x.com/advalnetwoks?t=3ZTQpgpZSycSTLG0ttjN6A&s=09" class="icon twitter">
+                <span><i class="fab fa-twitter"></i></span>
+              </a>
+              <!-- <a href="#" class="icon instagram">
+               
+                <span><i class="fab fa-instagram"></i></span>
+              </a> -->
+              <a target="_blank" href="https://github.com/Hebrewchild" class="icon github">
+                <span><i class="fab fa-github"></i></span>
+              </a>
+              <a target="_blank" href="https://www.youtube.com/@TeckingdomTV" class="icon youtube">
+                <span><i class="fab fa-youtube"></i></span>
+              </a>
+        </div>
+
+        
+    </section>
+   
+
+
+
+
+
+
+
+
+
+    <script>
+        
+        const homebtn = document.getElementById('homebtn')
+
+        function home(){
+            aboutUs.style.display = "none"
+            information.style.display = "block"
+            information.style.transition =""
+        }
+
+        const menu = document.getElementById('menuclick')
+        function myFunction(x) {
+            x.classList.toggle("change");
+}
+// .......................About Us.............................................
+
+        // const information = document.getElementById('info')
+        // const aboutUs = document.getElementById('about')
+
+        // function about(){
+        //     aboutUs.style.display = "block"
+        //     information.style.display = "none"
+        // }
+
+
+    </script>
+</body>
+</html>

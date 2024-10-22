@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(44, 39, 82);
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 10% 0 10%;
+    /* margin-bottom: 0; */
+    /* position: fixed;
+    top: 0; */
+}
+
+.head h2{
+    color: white;
+    text-shadow: 2px 1px 4px black , 1px 1px 10px black ;
+}
+
+.head nav a{
+    padding: 0 10px;
+    text-decoration:  none;
+    color: white;
+    transition: 1s ease-out;
+}
+
+.head nav a:hover{
+    font-size: 1.5em;
+}
+
+
+.clients{
+    padding: 20px 10%;
+}
+
+.clients h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+.imgclients{
+    background-color: white;
+    padding: 10%;
+    /* margin-top: 10%; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.contact{
+    /* border: 1px solid; */
+    margin: 10%;
+    height: auto;
+    box-shadow: -1px 1px 10px rgb(14, 14, 76), inset 2px 3px 5px rgb(14, 14, 76);
+    border-radius: 10px;
+    padding: 10%;
+    animation: contact 0.3s ease-in-out;
+}
+
+.contact label{
+    font-size: 2em;
+    color: brown;
+}
+
+@keyframes contact{
+    0%{
+        
+        opacity: 0;
+        color: red;
+    }
+   
+    100%{
+        opacity: 1;
+        /* transform: scale(1) */
+        color: rgb(34, 255, 0);
+    }
+}
